@@ -39,7 +39,7 @@
 
 ## 🌷 um pouquinho sobre mim
 
-Oi! Eu sou a Amy, **desenvolvedora full-stack** há mais de 4 anos, com o coração no back-end em **Python**. Hoje trabalho na **Estek**, construindo o sistema que roda a operação inteira da empresa — do orçamento à expedição 📦 — e, nas horas vagas, cuido dos meus projetos autorais Sou formada em Engenharia de Controle e Automação, então automatizar coisas é meio que minha natureza 🤖
+Oi! Eu sou a Amy, **desenvolvedora full-stack** há mais de 4 anos, com o coração no back-end em **Python**. Hoje trabalho na **Estek**, construindo o sistema que roda a operação inteira da empresa — do orçamento à expedição 📦 — e, nas horas vagas, cuido dos meus projetos autorais. Sou formada em Engenharia de Controle e Automação, então automatizar coisas é meio que minha natureza 🤖
 
 ```python
 class Amy(Desenvolvedora):
