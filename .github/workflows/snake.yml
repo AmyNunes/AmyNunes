@@ -1,0 +1,30 @@
+name: Gerar cobrinha 🐍
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # atualiza sozinha 2x por dia
+  workflow_dispatch:          # botão "Run workflow" na aba Actions
+
+permissions:
+  contents: write
+
+jobs:
+  cobrinha:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#F48FB1&color_dots=#FDEEF4,#F8BBD0,#F48FB1,#EC6FA0,#D14D8A
+            dist/snake-dark.svg?palette=github-dark&color_snake=#F48FB1&color_dots=#161B22,#4A2A3A,#7A3B5C,#B0507F,#F48FB1
+
+      - name: Salvar a cobrinha no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist
+          git commit -m "🐍 atualiza cobrinha" || echo "nada novo por aqui"
+          git push
