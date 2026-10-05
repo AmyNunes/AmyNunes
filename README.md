@@ -68,13 +68,18 @@ class Amy(Desenvolvedora):
 
 ## 💖 projetos do coração
 
+> ### 🏭 Estek ERP/MES
+> O sistema que roda a operação inteira de uma indústria **multi-empresa**, do orçamento à expedição 📦: vendas e feiras, **chão de fábrica** com fluxo de fases e apontamento, estoque endereçado, compras, faturamento de **NF-e** e um financeiro com **DRE**. Por baixo tem +15 integrações (**Tiny ERP**, **Mercado Livre**, **Shopee**, **Itaú**, **Mercado Pago**, **Jamef**…), filas assíncronas no **Celery** e controle de acesso por tela e por ação. E ainda tem uma assistente de I.A. rodando local que (claro) se chama Amy 🤖
+>
+> `Python` · `Flask` · `SQLAlchemy` · `MySQL` · `Redis` · `Celery` · `Docker`
+
 > ### 💬 MChat
 > Plataforma SaaS de atendimento via **WhatsApp** e **Shopee Chat**, com inbox em tempo real, CRM e **agentes de I.A. com RAG** que fazem a triagem e passam a conversa pra um humano quando precisa.
 >
 > `FastAPI` · `React` · `PostgreSQL + pgvector` · `Redis` · `Celery` · `Docker`
 
 > ### 📦 MStock
-> Coletor de estoque em **PWA offline-first** para os tablets do galpão: bipagem, separação de pedidos e conferência funcionando **mesmo sem internet**. Quando o sinal volta, tudo sincroniza sem movimentar nada em dobro, integrado ao **Tiny ERP**, **Mercado Livre Full** e **Shopee**.
+> Coletor de estoque em **PWA offline-first** para os tablets do galpão: bipagem, separação de pedidos e conferência funcionando **mesmo sem internet**. Quando o sinal volta, tudo sincroniza sem movimentar nada em dobro, integrado ao **Tiny ERP**, **Mercado Livre Full** e **Shopee**. Nasceu como um braço do sistema da Estek ☝️
 >
 > `JavaScript` · `PWA` · `IndexedDB` · `Flask` · `MySQL` · `Celery` · `Docker`
 
