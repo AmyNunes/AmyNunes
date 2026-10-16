@@ -62,7 +62,7 @@ class Amy(Desenvolvedora):
 |:--|:--|:--|
 | 2023 – hoje | **Dev Full-Stack** @ Estek | ERP/MES multi-empresa com +15 integrações (marketplaces, pagamentos, transportadoras) |
 | 2022 – 2023 | **Analista de TI** @ Estek | onde nasceram minhas primeiras apps web integradas ao ERP |
-| 2017 – 2021 | **Eng. de Controle e Automação** @ UNIP | a origem da mania de automatizar tudo ✨ |
+| 2017 – 2022 | **Eng. de Controle e Automação** @ UNIP | a origem da mania de automatizar tudo ✨ |
 
 <br>
 
