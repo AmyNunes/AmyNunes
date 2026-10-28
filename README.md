@@ -24,7 +24,7 @@
 
   ~ agora mesmo ~
 
-  > dev full-stack na Estek
+  > dev full-stack
   > criando o MChat e o MStock
   > integrando APIs e automatizando
   > convertendo doces em código 🍬
@@ -46,7 +46,7 @@ class Amy(Desenvolvedora):
     def __init__(self):
         self.nome = "Amy Nunes"
         self.pronomes = ("she", "her")
-        self.cargo = "Full-Stack @ Estek"
+        self.cargo = "Full-Stack"
         self.coracao = ["back-end", "integrações", "I.A."]
         self.curiosidade = float("inf")
 
@@ -68,7 +68,7 @@ class Amy(Desenvolvedora):
 
 ## 💖 projetos do coração
 
-> ### 🏭 Estek ERP/MES
+> ### 🏭 ERP/MES
 > O sistema que roda a operação inteira de uma indústria **multi-empresa**, do orçamento à expedição 📦: vendas e feiras, **chão de fábrica** com fluxo de fases e apontamento, estoque endereçado, compras, faturamento de **NF-e** e um financeiro com **DRE**. Por baixo tem +15 integrações (**Tiny ERP**, **Mercado Livre**, **Shopee**, **Itaú**, **Mercado Pago**, **Jamef**…), filas assíncronas no **Celery** e controle de acesso por tela e por ação. E ainda tem uma assistente de I.A. rodando local que (claro) se chama Amy 🤖
 >
 > `Python` · `Flask` · `SQLAlchemy` · `MySQL` · `Redis` · `Celery` · `Docker`
